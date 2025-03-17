@@ -35,11 +35,11 @@ DEBUG = True
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # Set hosts to allow any app on Railway and the local testing URL
-ALLOWED_HOSTS = ['*', 'librarydjango-eqbmbvfuawgzebg8.centralus-01.azurewebsites.net']
+ALLOWED_HOSTS = ['*', 'https://librarydjango-eqbmbvfuawgzebg8.centralus-01.azurewebsites.net']
 
 # Set CSRF trusted origins to allow any app on Railway and the local testing URL
 CSRF_TRUSTED_ORIGINS = [
-    'https://papaerchase-esgbcmhwdvfghbc2.canadacentral-01.azurewebsites.net'
+    '*','https://librarydjango-eqbmbvfuawgzebg8.centralus-01.azurewebsites.net'
 ]
 
 # Application definition
