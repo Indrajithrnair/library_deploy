@@ -39,7 +39,7 @@ ALLOWED_HOSTS = ['*', 'https://librarydjango-eqbmbvfuawgzebg8.centralus-01.azure
 
 # Set CSRF trusted origins to allow any app on Railway and the local testing URL
 CSRF_TRUSTED_ORIGINS = [
-    '*','https://librarydjango-eqbmbvfuawgzebg8.centralus-01.azurewebsites.net'
+    'https://librarydjango-eqbmbvfuawgzebg8.centralus-01.azurewebsites.net'
 ]
 
 # Application definition
